@@ -46,3 +46,48 @@ function App() {
 }
 
 export default App;
+
+
+
+
+
+
+
+
+
+
+
+
+// above project using js
+
+
+// let counter = 5;
+
+// const counterSpan = document.getElementById('counter');
+// const increaseBtn = document.getElementById('increaseBtn');
+// const decreaseBtn = document.getElementById('decreaseBtn');
+
+// // Update the UI
+// function updateCounter() {
+//   counterSpan.textContent = counter;
+// }
+
+// // Increase function
+// increaseBtn.addEventListener('click', () => {
+//   if (counter < 20) {
+//     counter++;
+//     updateCounter();
+//   } else {
+//     console.log("Value can't be more than 20");
+//   }
+// });
+
+// // Decrease function
+// decreaseBtn.addEventListener('click', () => {
+//   if (counter > 0) {
+//     counter--;
+//     updateCounter();
+//   } else {
+//     console.log("Value can't be less than zero");
+//   }
+// });
