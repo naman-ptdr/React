@@ -16,6 +16,16 @@ function App() {
   const addValue = () => {
     if (counter < 20) {
       setCounter(counter + 1); // Always use counter + 1, not counter++
+      // setCounter(counter + 1);
+      // setCounter(counter + 1);     -----> Not increase value by 3 only increase by 1
+      // setCounter(counter + 1);
+
+      // but if we use like this then increase by 3 prev is refrence of counter we can also give prevCounter name like counter
+      
+      // setCounter(prevCounter => {prevCounter + 1});
+      // setCounter(prevCounter => {prevCounter + 1});
+      // setCounter(prevCounter => {prevCounter + 1});
+
     } else {
       console.log("Value can't be more than 20");
     }
